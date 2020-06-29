@@ -16,10 +16,8 @@ steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
 
-- step: 'Building App'
+- bash: echo 'Building App'
   displayName: 'Building App'
-  bash: echo 'Building App'
-
-- step: 'Testing'
+  
+- bash: 'Testing '
   displayName: 'Testing'
-  bash: echo 'Testing app'
