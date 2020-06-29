@@ -19,5 +19,5 @@ steps:
 - bash: echo 'Building App'
   displayName: 'Building App'
   
-- bash: 'Testing '
+- bash: echo 'Testing '
   displayName: 'Testing'
